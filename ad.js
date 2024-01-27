@@ -1,0 +1,1 @@
+alert('"@doniiadty" nih ig gwe, jangan lupa follow kalo ga follow nanti nyesel loh wkwk')

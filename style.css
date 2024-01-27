@@ -1,0 +1,106 @@
+/* .btn_success {
+    position: relative;
+    top: 2%;
+    right: 0.9%;
+    text-decoration: none;
+    padding: 2% 3%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn_success:hover {
+    background-color: #45a049;
+}
+
+.btn_danger {
+    padding: 2% 3%;
+    text-decoration: none;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn_danger:hover {
+    background-color: #d32f2f;
+}
+
+img {
+    height: 260px;
+    width: auto;
+    margin-bottom: .5%;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 200%;
+} */
+/* Styling untuk tombol "Mau" */
+.btn_success {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn_success:hover {
+    background-color: #45a049;
+}
+
+/* Styling untuk tombol "Gak" */
+.btn_danger {
+    padding: 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn_danger:hover {
+    background-color: #d32f2f;
+}
+
+/* Styling untuk kontainer */
+.center {
+    text-align: center;
+    position: relative; /* Memastikan posisi relatif untuk elemen child */
+}
+
+/* Penyesuaian untuk posisi tombol "Mau" */
+/* #btn_mau {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-66%, 340%);
+} */
+
+img {
+    max-width: 19%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* Media Query untuk perangkat seluler */
+@media only screen and (max-width: 768px) {
+    img {
+        max-width: 80%; /* Mengurangi lebar gambar untuk tampilan seluler */
+    }
+}
